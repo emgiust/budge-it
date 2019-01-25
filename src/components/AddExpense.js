@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Consumer } from '../context';
 import TextInputGroup from '../layout/TextInputGroup';
+import TextInputMoney from '../layout/TextInputMoney';
 import uuid from 'uuid';
 
 class AddExpense extends Component {
@@ -84,7 +85,7 @@ class AddExpense extends Component {
                     onChange={this.onChange}
                     error={errors.description}
                   />
-                  <TextInputGroup
+                  <TextInputMoney
                     label="Amount"
                     name="amount"
                     placeholder="Amount.."
