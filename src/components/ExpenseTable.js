@@ -14,7 +14,7 @@ class ExpenseTable extends Component {
           ));
 
           return (
-            <table className="table mt-2 table-striped">
+            <table className="table mt-2 table-striped w-75 mx-auto">
               <thead>
                 <tr>
                   <th scope="col">
